@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>William Rule — Applied Mathematics</title>
+  <meta name="description" content="William Rule — UC Berkeley Applied Mathematics student pursuing a minor in Statistics. Python projects in option pricing, numerical methods, time-series backtesting, and data analysis." />
+  <meta name="color-scheme" content="dark" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="William Rule — Applied Mathematics" />
+  <meta property="og:description" content="Applied Mathematics student working in Python on option-pricing models, numerical methods, backtesting, and data analysis." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22&gt;&lt;rect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%230a1729%22/&gt;&lt;text x=%2232%22 y=%2243%22 font-size=%2234%22 font-family=%22monospace%22 font-weight=%22700%22 fill=%22%2334cfbd%22 text-anchor=%22middle%22&gt;w&lt;/text&gt;&lt;/svg&gt;" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="site-header" id="site-header">
+    <div class="shell nav-shell">
+      <a class="brand" href="#hero" aria-label="William Rule — home">
+        <span class="brand__mark" aria-hidden="true">wr</span>
+        <span class="brand__name">William&nbsp;Rule</span>
+      </a>
+
+      <nav class="nav" id="primary-nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="shell hero__grid">
+        <div class="hero__intro">
+          <p class="eyebrow">UC Berkeley · Applied Mathematics</p>
+          <h1 class="hero__title" id="hero-title">Hi, I&rsquo;m William&nbsp;Rule.</h1>
+          <p class="hero__lead">
+            Applied Mathematics student pursuing a minor in Statistics, with interests in
+            computational research, quantitative finance, data analysis, and numerical methods.
+          </p>
+          <p class="hero__sub">
+            I use Python and mathematics for projects involving financial models, experimental
+            economics, numerical methods, and data analysis.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#projects">View Projects</a>
+            <a class="btn btn--ghost" href="assets/resume/William_Rule_Resume.pdf" download="William_Rule_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+            <a class="btn btn--ghost" href="https://github.com/williamrule" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+              GitHub
+            </a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/williamrule/" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M13.63 0H2.37A2.35 2.35 0 0 0 0 2.33v11.34A2.35 2.35 0 0 0 2.37 16h11.26A2.35 2.35 0 0 0 16 13.67V2.33A2.35 2.35 0 0 0 13.63 0ZM4.86 13.12H2.83V6.6h2.03v6.52ZM3.84 5.7a1.18 1.18 0 1 1 0-2.36 1.18 1.18 0 0 1 0 2.36Zm9.4 7.42h-2.03V9.4c0-.86-.02-1.97-1.2-1.97-1.2 0-1.39.94-1.39 1.91v3.78H6.6V6.6h1.95v.89h.03c.27-.51.94-1.05 1.93-1.05 2.06 0 2.44 1.36 2.44 3.12v3.56Z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__portrait">
+          <div class="portrait-frame">
+            <img src="assets/will-rule.jpg" width="1000" height="1000"
+                 alt="William Rule wearing a dark shirt and an NVIDIA GTC conference badge, giving two thumbs up in a data-center server aisle." />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="shell">
+        <div class="section__head">
+          <p class="eyebrow"><span class="tick" aria-hidden="true"></span>About</p>
+          <h2 class="section__title" id="about-title">A bit about me</h2>
+        </div>
+        <div class="about__body">
+          <div class="about__prose">
+            <p>
+              I&rsquo;m a UC Berkeley Applied Mathematics student pursuing a minor in Statistics, with
+              interests in computational research, quantitative finance, data analysis, and numerical
+              methods.
+            </p>
+            <p>
+              My work has included Python-based research and technical projects: option-pricing models,
+              Taylor-series approximations of Black&ndash;Scholes, time-series backtesting, experimental-economics
+              tools, and blockchain transaction-data analysis. I&rsquo;ve also worked as a Python/oTree research
+              assistant on a faculty-led economics experiment and presented independent research at the
+              Bay Honors Research Symposium at UC Berkeley.
+            </p>
+            <p>
+              Right now I&rsquo;m looking for research assistant, data analysis, fintech, and quant-adjacent
+              opportunities where I can contribute through Python, statistical modeling, numerical methods,
+              and careful analysis.
+            </p>
+          </div>
+          <aside class="about__aside" aria-label="Focus areas">
+            <p class="about__aside-label">Focus areas</p>
+            <ul class="focus-list">
+              <li>Numerical methods</li>
+              <li>Option-pricing models</li>
+              <li>Time-series &amp; backtesting</li>
+              <li>Data analysis &amp; visualization</li>
+              <li>Experimental-economics tools</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SELECTED PROJECTS ===================== -->
+    <section class="section section--projects" id="projects" aria-labelledby="projects-title">
+      <div class="shell">
+        <div class="section__head">
+          <p class="eyebrow"><span class="tick" aria-hidden="true"></span>Selected work</p>
+          <h2 class="section__title" id="projects-title">Projects</h2>
+          <p class="section__intro">
+            Five Python projects across quantitative finance, numerical methods, and research tooling.
+            The figures below are the actual outputs from each repository.
+          </p>
+        </div>
+
+        <!-- Featured projects: wide alternating rows -->
+        <div class="featured">
+
+          <!-- Featured 1: Carbon Credit -->
+          <article class="project project--featured" aria-labelledby="proj-carbon">
+            <div class="project__media">
+              <button type="button" class="figure"
+                      data-full="assets/projects/carbon-credit-transaction-activity.png"
+                      data-caption="Daily transaction counts in the Klima DAO tokenized carbon-credit market (Dec 2024 – Jan 2025).">
+                <img src="assets/projects/carbon-credit-transaction-activity.png" width="1500" height="750" loading="lazy"
+                     alt="Bar chart titled Transaction Activity Over Time showing daily Klima DAO transaction counts from December 2024 to January 2025, ranging from roughly 200 to over 2,000 transactions per day." />
+                <span class="figure__hint" aria-hidden="true">Enlarge</span>
+              </button>
+            </div>
+            <div class="project__body">
+              <div class="project__index"><span class="num">01</span><span class="year">2025</span></div>
+              <h3 class="project__title" id="proj-carbon">Visualizing Tokenized Carbon Credit Markets</h3>
+              <p class="project__desc">
+                Analyzed more than 50,000 Klima DAO transaction records in Python to study activity,
+                transaction sizes, and liquidity patterns in a tokenized carbon-credit market.
+              </p>
+              <ul class="project__points">
+                <li>Cleaned, grouped, and analyzed 50,000+ transaction records from the Klima DAO platform using Python and pandas.</li>
+                <li>Built visualizations of daily activity, transaction-size distribution, weekly trends, and liquidity ratios.</li>
+                <li>Presented at the Bay Honors Research Symposium at UC Berkeley, alongside a 19-page paper and code.</li>
+              </ul>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li><li>pandas</li><li>matplotlib</li><li>Data analysis</li><li>Data visualization</li>
+              </ul>
+              <a class="project__link" href="https://github.com/williamrule/Carbon-Credit-Research-Source-Code" target="_blank" rel="noopener">
+                View repository
+                <svg class="icon icon--arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M5 11 11 5m0 0H5.5M11 5v5.5"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Featured 2: Binomial Convergence -->
+          <article class="project project--featured" aria-labelledby="proj-binomial">
+            <div class="project__media">
+              <button type="button" class="figure"
+                      data-full="assets/projects/binomial-bsm-convergence.png"
+                      data-caption="Cox–Ross–Rubinstein binomial option prices converging to the Black–Scholes benchmark as the number of time steps grows.">
+                <img src="assets/projects/binomial-bsm-convergence.png" width="640" height="480" loading="lazy"
+                     alt="Line chart titled Convergence of Binomial Prices to the Black–Scholes Value, showing CRR binomial option prices oscillating and settling onto the constant Black–Scholes benchmark line as the number of time steps increases on a logarithmic axis." />
+                <span class="figure__hint" aria-hidden="true">Enlarge</span>
+              </button>
+            </div>
+            <div class="project__body">
+              <div class="project__index"><span class="num">02</span><span class="year">2026</span></div>
+              <h3 class="project__title" id="proj-binomial">Binomial Pricing Model &amp; Black&ndash;Scholes Convergence</h3>
+              <p class="project__desc">
+                Implemented an N-step Cox&ndash;Ross&ndash;Rubinstein binomial model for European calls and puts,
+                and studied how its prices converge to the Black&ndash;Scholes closed-form benchmark as the number
+                of time steps increases.
+              </p>
+              <ul class="project__points">
+                <li>Calculated risk-neutral probabilities and added no-arbitrage checks.</li>
+                <li>Used backward induction to value options at each node.</li>
+                <li>Compared binomial prices against Black&ndash;Scholes and graphed convergence and absolute pricing error.</li>
+              </ul>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li><li>NumPy</li><li>matplotlib</li><li>Option pricing</li><li>Numerical methods</li>
+              </ul>
+              <a class="project__link" href="https://github.com/williamrule/Binomial_Pricing_Model_BSM_Convergences" target="_blank" rel="noopener">
+                View repository
+                <svg class="icon icon--arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M5 11 11 5m0 0H5.5M11 5v5.5"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Featured 3: SPY Moving Average -->
+          <article class="project project--featured" aria-labelledby="proj-spy">
+            <div class="project__media">
+              <button type="button" class="figure"
+                      data-full="assets/projects/spy-moving-average-sharpe-heatmap.png"
+                      data-caption="Sharpe ratio across short- and long-window moving-average crossover combinations on SPY.">
+                <img src="assets/projects/spy-moving-average-sharpe-heatmap.png" width="640" height="480" loading="lazy"
+                     alt="Heatmap titled MA window Sharpe Ratio heat-map, with short window on the x-axis and long window on the y-axis. Brighter cells mark higher Sharpe ratios; most combinations sit in the mid-range, with a few brighter high-Sharpe regions." />
+                <span class="figure__hint" aria-hidden="true">Enlarge</span>
+              </button>
+            </div>
+            <div class="project__body">
+              <div class="project__index"><span class="num">03</span><span class="year">2025</span></div>
+              <h3 class="project__title" id="proj-spy">SPY Moving-Average Strategy Backtest</h3>
+              <p class="project__desc">
+                Built a vectorized backtest of moving-average crossover strategies on SPY and tested more
+                than 200 short- and long-window combinations against buy-and-hold.
+              </p>
+              <ul class="project__points">
+                <li>Computed CAGR, annualized volatility, Sharpe ratio, and maximum drawdown for each strategy.</li>
+                <li>Shifted signals by one session to avoid look-ahead bias, then ran coarse and refined parameter searches.</li>
+                <li>Found some window combinations improved risk-adjusted performance and reduced drawdown, while generally capturing less total upside than buy-and-hold.</li>
+              </ul>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li><li>pandas</li><li>NumPy</li><li>matplotlib</li><li>yfinance</li><li>Backtesting</li><li>Time-series analysis</li>
+              </ul>
+              <a class="project__link" href="https://github.com/williamrule/MovingAverage" target="_blank" rel="noopener">
+                View repository
+                <svg class="icon icon--arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M5 11 11 5m0 0H5.5M11 5v5.5"/></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Secondary projects: clean cards -->
+        <div class="cards">
+
+          <!-- Card 1: Taylor approximation (figure-led) -->
+          <article class="project project--card" aria-labelledby="proj-taylor">
+            <div class="project__media project__media--card">
+              <button type="button" class="figure"
+                      data-full="assets/projects/bsm-taylor-call-price-error.png"
+                      data-caption="Absolute call-price error of a third-order Taylor approximation versus Black–Scholes, plotted against log-moneyness.">
+                <img src="assets/projects/bsm-taylor-call-price-error.png" width="1280" height="960" loading="lazy"
+                     alt="Line chart titled Call price absolute error vs log-moneyness, showing the absolute error between a third-order Taylor approximation and Black–Scholes near zero at the expansion point and rising on both sides as the option moves away from at-the-money." />
+                <span class="figure__hint" aria-hidden="true">Enlarge</span>
+              </button>
+            </div>
+            <div class="project__body">
+              <div class="project__index"><span class="num">04</span><span class="year">2025</span></div>
+              <h3 class="project__title" id="proj-taylor">Black&ndash;Scholes Taylor-Series Approximation</h3>
+              <p class="project__desc">
+                Built Taylor-series approximations of the Black&ndash;Scholes&ndash;Merton European option price and
+                tested how pricing, Delta, and Gamma errors grow as the stock price moves away from the
+                expansion point.
+              </p>
+              <ul class="project__points">
+                <li>Compared third- and fourth-order Taylor approximations against the exact Black&ndash;Scholes formula.</li>
+                <li>Examined price, Delta, and Gamma error across a sweep of stock prices, and measured runtime versus the closed-form formula.</li>
+              </ul>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li><li>NumPy</li><li>SciPy</li><li>matplotlib</li><li>Taylor series</li><li>Option pricing</li>
+              </ul>
+              <a class="project__link" href="https://github.com/williamrule/BSM-Taylor" target="_blank" rel="noopener">
+                View repository
+                <svg class="icon icon--arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M5 11 11 5m0 0H5.5M11 5v5.5"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2: Public goods game (text-first) -->
+          <article class="project project--card" aria-labelledby="proj-pgg">
+            <div class="project__media project__media--card">
+              <div class="repo-block" role="img" aria-label="Structure of the public_goods_game oTree project: exogenous and endogenous treatments in a two-by-two design, live group formation via oTree's websocket live_method, payoff logic, participant pages, data export, and automated bot tests.">
+                <div class="repo-block__bar" aria-hidden="true">
+                  <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                  <span class="repo-block__name">public_goods_game</span>
+                </div>
+                <pre class="repo-block__tree" aria-hidden="true"><span class="c">#</span> oTree experiment — exogenous &amp; endogenous groups
+treatments/   <span class="c"># 2×2 design, all four treatments</span>
+groups/       <span class="c"># live formation via live_method (websockets)</span>
+payoffs/      <span class="c"># contribution &amp; payoff logic</span>
+pages/        <span class="c"># participant interfaces + data export</span>
+tests/        <span class="c"># automated bot tests</span></pre>
+              </div>
+            </div>
+            <div class="project__body">
+              <div class="project__index"><span class="num">05</span><span class="year">2025</span></div>
+              <h3 class="project__title" id="proj-pgg">Public Goods Provision with Endogenous Groups</h3>
+              <p class="project__desc">
+                Built an oTree implementation of a public-goods economics experiment with both exogenous and
+                endogenous group formation.
+              </p>
+              <ul class="project__points">
+                <li>Implemented all four treatments, including workflows, payoff calculations, participant pages, and data export.</li>
+                <li>Added live group formation using oTree&rsquo;s websocket-based <code>live_method</code>, plus automated bot tests.</li>
+                <li>Developed as a research assistant for a faculty-led economics experiment; supported data collection for 568 participants.</li>
+              </ul>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li><li>oTree</li><li>HTML</li><li>Experimental economics</li><li>Automated testing</li>
+              </ul>
+              <a class="project__link" href="https://github.com/williamrule/public_goods_game" target="_blank" rel="noopener">
+                View repository
+                <svg class="icon icon--arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M5 11 11 5m0 0H5.5M11 5v5.5"/></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="shell">
+        <div class="section__head">
+          <p class="eyebrow"><span class="tick" aria-hidden="true"></span>Experience</p>
+          <h2 class="section__title" id="experience-title">Research &amp; technical experience</h2>
+        </div>
+        <ol class="timeline">
+          <li class="entry">
+            <div class="entry__meta">
+              <p class="entry__org">Chapman University</p>
+              <p class="entry__date">2025&ndash;Present</p>
+            </div>
+            <div class="entry__main">
+              <h3 class="entry__role">Research Assistant &mdash; Economics Python/oTree Developer</h3>
+              <ul class="entry__points">
+                <li>Built a Python/oTree platform for a faculty-led public-goods experiment.</li>
+                <li>Implemented treatment workflows, payoff logic, participant interfaces, data export, and bot tests.</li>
+                <li>Supported data collection for 568 participants across a 2&times;2 experimental design.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="entry">
+            <div class="entry__meta">
+              <p class="entry__org">Saddleback College&nbsp;LRC</p>
+              <p class="entry__date">Aug&nbsp;2025&ndash;Present</p>
+            </div>
+            <div class="entry__main">
+              <h3 class="entry__role">Math Tutor</h3>
+              <ul class="entry__points">
+                <li>Tutored Calculus&nbsp;III and Differential Equations in individual and group sessions.</li>
+                <li>Completed more than 175 tutoring hours.</li>
+                <li>Focused on conceptual setup, derivations, and exam preparation.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section class="section section--alt" id="education" aria-labelledby="education-title">
+      <div class="shell">
+        <div class="section__head">
+          <p class="eyebrow"><span class="tick" aria-hidden="true"></span>Education</p>
+          <h2 class="section__title" id="education-title">Education</h2>
+        </div>
+        <div class="edu-grid">
+          <article class="edu-card">
+            <div class="edu-card__head">
+              <h3 class="edu-card__school">University of California, Berkeley</h3>
+              <p class="edu-card__date">Expected May&nbsp;2028</p>
+            </div>
+            <p class="edu-card__degree">B.A. Applied Mathematics · pursuing a minor in Statistics</p>
+            <p class="edu-card__label">Planned / in-progress coursework</p>
+            <ul class="chiplist">
+              <li>Numerical Analysis</li><li>Linear Algebra</li><li>Probability</li><li>Optimization</li><li>Computer Science</li>
+            </ul>
+          </article>
+          <article class="edu-card">
+            <div class="edu-card__head">
+              <h3 class="edu-card__school">Saddleback College</h3>
+              <p class="edu-card__date">Jan&nbsp;2025&ndash;May&nbsp;2026</p>
+            </div>
+            <p class="edu-card__degree">Mathematics (Honors) · GPA 4.00/4.00</p>
+            <p class="edu-card__label">Completed coursework</p>
+            <ul class="chiplist">
+              <li>Calculus I&ndash;III</li><li>Differential Equations</li><li>Linear Algebra</li><li>Discrete Mathematics</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="shell">
+        <div class="section__head">
+          <p class="eyebrow"><span class="tick" aria-hidden="true"></span>Toolkit</p>
+          <h2 class="section__title" id="skills-title">Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skills-col">
+            <p class="skills-col__label">Programming &amp; tools</p>
+            <ul class="tags tags--lg" aria-label="Programming and tools">
+              <li>Python</li><li>NumPy</li><li>pandas</li><li>SciPy</li><li>matplotlib</li><li>MATLAB</li><li>Git</li><li>GitHub</li><li>oTree</li>
+            </ul>
+          </div>
+          <div class="skills-col">
+            <p class="skills-col__label">Areas</p>
+            <ul class="tags tags--lg" aria-label="Areas">
+              <li>Numerical methods</li><li>Simulation</li><li>Backtesting</li><li>Data analysis</li><li>Data visualization</li><li>Option-pricing models</li><li>Time-series analysis</li><li>Experimental-economics programming</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== AWARDS & ACTIVITIES ===================== -->
+    <section class="section section--alt section--awards" id="awards" aria-labelledby="awards-title">
+      <div class="shell">
+        <div class="section__head">
+          <p class="eyebrow"><span class="tick" aria-hidden="true"></span>Recognition</p>
+          <h2 class="section__title section__title--sm" id="awards-title">Awards &amp; activities</h2>
+        </div>
+        <div class="awards-grid">
+          <div class="awards-col">
+            <p class="awards-col__label">Awards &amp; certifications</p>
+            <ul class="awards-list">
+              <li>Honors Research Scholar &mdash; Bay Honors Research Symposium, UC&nbsp;Berkeley</li>
+              <li>FINRA Securities Industry Essentials (SIE) examination</li>
+              <li>SSRN top-downloaded paper recognition</li>
+            </ul>
+          </div>
+          <div class="awards-col">
+            <p class="awards-col__label">Activities &amp; leadership</p>
+            <ul class="awards-list">
+              <li>Director &mdash; Saddleback College Budget &amp; Finance Committee</li>
+              <li>Treasurer &amp; Board Member &mdash; Saddleback Investing Club</li>
+              <li>Co-Founder, Finance &amp; Operations &mdash; Nurture Aid Vision</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RESUME & CONTACT ===================== -->
+    <section class="section section--contact" id="contact" aria-labelledby="contact-title">
+      <div class="shell">
+        <div class="section__head">
+          <p class="eyebrow"><span class="tick" aria-hidden="true"></span>Get in touch</p>
+          <h2 class="section__title" id="contact-title">Resume &amp; contact</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card" id="resume">
+            <h3 class="contact-card__title">Resume</h3>
+            <p class="contact-card__text">
+              A one-page summary of my education, research, projects, and technical experience.
+            </p>
+            <a class="btn btn--primary" href="assets/resume/William_Rule_Resume.pdf" download="William_Rule_Resume.pdf" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 1a.75.75 0 0 1 .75.75v6.69l1.97-1.97a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.53a.75.75 0 0 1 1.06-1.06l1.97 1.97V1.75A.75.75 0 0 1 8 1ZM2.75 11a.75.75 0 0 1 .75.75v1.5c0 .14.11.25.25.25h8.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 12.25 15h-8.5A1.75 1.75 0 0 1 2 13.25v-1.5a.75.75 0 0 1 .75-.75Z"/></svg>
+              Download Resume (PDF)
+            </a>
+          </div>
+
+          <div class="contact-card">
+            <h3 class="contact-card__title">Contact</h3>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-list__label">Email</span>
+                <a href="mailto:willrule@berkeley.edu">willrule@berkeley.edu</a>
+              </li>
+              <li>
+                <span class="contact-list__label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/williamrule/" target="_blank" rel="noopener">linkedin.com/in/williamrule</a>
+              </li>
+              <li>
+                <span class="contact-list__label">GitHub</span>
+                <a href="https://github.com/williamrule" target="_blank" rel="noopener">github.com/williamrule</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="shell footer-shell">
+      <p class="footer__copy">&copy; <span id="year">2026</span> William Rule</p>
+      <ul class="footer__links" aria-label="Elsewhere">
+        <li><a href="https://github.com/williamrule" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/williamrule/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:willrule@berkeley.edu">Email</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- ===================== LIGHTBOX ===================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Project figure" hidden>
+    <div class="lightbox__backdrop" data-close></div>
+    <figure class="lightbox__inner">
+      <img class="lightbox__img" id="lightbox-img" src="" alt="" />
+      <figcaption class="lightbox__cap" id="lightbox-cap"></figcaption>
+    </figure>
+    <button type="button" class="lightbox__close" id="lightbox-close" aria-label="Close figure" data-close>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
